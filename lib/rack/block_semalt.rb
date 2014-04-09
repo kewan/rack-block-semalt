@@ -20,7 +20,7 @@ module Rack
 
     def semalt?(env)
       referer = env['HTTP_REFERER'] || ''
-      referer =~ /^semalt\.com/
+      referer =~ /semalt\.com\/crawler\.php/
     end
   end
 end
