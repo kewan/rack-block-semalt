@@ -1,6 +1,8 @@
-# Rack::Block::Semalt
+# Rack Block Semalt
 
-TODO: Write a gem description
+The semalt.com crawler is a bit shady and, if nothing else, pollutes your logs
+with hits and doesn't respect robots.txt. This gem makes it simple to block
+semalt.com's crawler.
 
 ## Installation
 
@@ -18,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Simply add these two lines of code to your `config.ru` file:
+
+    require 'rack-block-semalt'
+    use Rack::BlockSemalt
 
 ## Contributing
 
