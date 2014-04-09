@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Rack::BlockSemalt::VERSION
   spec.authors       = ["Michael Dippery"]
   spec.email         = ["michael@monkey-robot.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Rack middleware to block the semalt.com web crawler.}
+  spec.homepage      = "https://github.com/mdippery/rack-block-semalt"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -18,6 +17,5 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
 end
