@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rack/block/semalt/version'
+require 'rack/block_semalt/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rack-block-semalt"
-  spec.version       = Rack::Block::Semalt::VERSION
+  spec.version       = Rack::BlockSemalt::VERSION
   spec.authors       = ["Michael Dippery"]
   spec.email         = ["michael@monkey-robot.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
